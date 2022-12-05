@@ -1,0 +1,11 @@
+C:\Users\bleer.rodriguez\Documents\code\bas\Calc\Calc\bin\Debug\Calc.exe.config
+C:\Users\bleer.rodriguez\Documents\code\bas\Calc\Calc\bin\Debug\Calc.exe
+C:\Users\bleer.rodriguez\Documents\code\bas\Calc\Calc\bin\Debug\Calc.pdb
+C:\Users\bleer.rodriguez\Documents\code\bas\Calc\Calc\obj\Debug\Calc.csproj.AssemblyReference.cache
+C:\Users\bleer.rodriguez\Documents\code\bas\Calc\Calc\obj\Debug\Calc.csproj.SuggestedBindingRedirects.cache
+C:\Users\bleer.rodriguez\Documents\code\bas\Calc\Calc\obj\Debug\Calc.Form1.resources
+C:\Users\bleer.rodriguez\Documents\code\bas\Calc\Calc\obj\Debug\Calc.Properties.Resources.resources
+C:\Users\bleer.rodriguez\Documents\code\bas\Calc\Calc\obj\Debug\Calc.csproj.GenerateResource.cache
+C:\Users\bleer.rodriguez\Documents\code\bas\Calc\Calc\obj\Debug\Calc.csproj.CoreCompileInputs.cache
+C:\Users\bleer.rodriguez\Documents\code\bas\Calc\Calc\obj\Debug\Calc.exe
+C:\Users\bleer.rodriguez\Documents\code\bas\Calc\Calc\obj\Debug\Calc.pdb
