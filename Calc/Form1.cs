@@ -87,29 +87,75 @@ namespace Calc
         private void button12_Click(object sender, EventArgs e)
         {
             this.label2.Text = "+";
-            this.label3.Text = this.label1.Text;
+            if (this.label1.Text!="")
+            {
+                this.label3.Text = this.label1.Text;
+            }
             this.label1.Text = "";
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             this.label2.Text = "-";
-            this.label3.Text = this.label1.Text;
+            if (this.label1.Text != "")
+            {
+                this.label3.Text = this.label1.Text;
+            }
             this.label1.Text = "";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             this.label2.Text = "*";
-            this.label3.Text = this.label1.Text;
+            if (this.label1.Text != "")
+            {
+                this.label3.Text = this.label1.Text;
+            }
             this.label1.Text = "";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             this.label2.Text = "%";
-            this.label3.Text = this.label1.Text;
+            if (this.label1.Text != "")
+            {
+                this.label3.Text = this.label1.Text;
+            }
             this.label1.Text = "";
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            double fn;
+            double sn;
+            double r;
+            double.TryParse(this.label1.Text, out fn);
+            double.TryParse(this.label1.Text, out sn);
+            r = 0;
+            if (this.label2.Text=="+")
+            {
+                r = fn + sn;
+            }
+            if (this.label2.Text == "-")
+            {
+                r = fn - sn;
+            }
+            if (this.label2.Text == "*")
+            {
+                r = fn * sn;
+            }
+            if (this.label2.Text == "%")
+            {
+                r = fn / sn;
+            }
+            this.label1.Text = r.ToString();
+            this.label2.Text = "";
+            this.label3.ResetText();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            this.label1.Text = this.label1.Text + ".";
         }
     }
 }
